@@ -1,0 +1,31 @@
+{
+  "name": "authservice",
+  "version": "1.0.0",
+  "description": "Auth Service for Token System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Sample Test Passed\"",
+    "start": "node bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albyzyx/token-system-server.git"
+  },
+  "keywords": [
+    "Auth",
+    "TokenApp",
+    "Express",
+    "Node"
+  ],
+  "author": "Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albyzyx/token-system-server/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  }
+}
